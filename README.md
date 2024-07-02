@@ -1,29 +1,62 @@
 Title: StudyBud
 
 Live link: https://study-bud-87051.web.app
-<hr/>
+___
 
 
+Online Group Study Web Application
+
+Overview:
+
+This project is a web application designed for online group study with friends. Registered users can create, complete, and grade assignments. The application ensures a collaborative and interactive study environment by allowing users to see and interact with each other's assignments.
+
+___
 Features:
-<hr/>
+
++ User Authentication: Secure login and registration using JWT for both email/password and social login.
+
++ Assignment Creation and Management: Users can create assignments with titles, descriptions, marks, images, difficulty levels, and due dates. Assignments can be updated and deleted by the creators.
++ Assignment Viewing and Filtering: Assignments are displayed with filtering options based on difficulty level.
++ Assignment Submission and Grading: Users can submit their completed assignments, which can be graded by their peers.
+
++ Responsive Design: The application is fully responsive, ensuring compatibility with mobile, tablet, and desktop devices.
++ Theme Customization: A theme toggling button allows users to switch between light and dark modes.
++ Private Routes with JWT: Ensures that users stay logged in even after refreshing the page.
+Installation Guide
+___
+<h3>To clone the project and run it locally, follow these steps:</h2>
+
++ Prerequisites: 
+
+- Node.js and 
+- npm installed
+- MongoDB database
+- Check the package.json files for client and server sides and install the dependencies
+
+Client-Side Installation
+- Clone the repository:
+- npm install
+- Create a .env file:
+
+Create a .env file in the root of the client-side directory and add your Firebase configuration and other environment variables:
 
 
-+ Responsive Design: The web application is fully responsive, ensuring optimal user experience across all devices including desktops, tablets, and mobile phones.
+Start the development server:
+- npm start
+- Server-Side Installation
 
-+ JWT Authentication: Implemented secure JWT-based authentication for both email/password and social logins, ensuring user data privacy and secure access to private routes.
+Clone the repository:
 
-+ Dynamic Assignment Management: Users can create, update, delete, and view assignments with ease. Assignments include details such as title, description, marks, difficulty level, and due date.
+- Install dependencies:
+- npm install
+- Create a .env file:
 
-+ Real-Time Assignment Filtering: The assignments page features dynamic filtering options based on assignment difficulty level (easy, medium, hard) to help users find relevant assignments quickly.
+Create a .env file in the root of the server-side directory and add your MongoDB connection string and other environment variables:
 
-+ Assignment Submission and Grading: Users can submit their assignments with a PDF/doc link and notes. Submitted assignments are graded by peers, with feedback and marks recorded.
+Start the server:
 
-+ Pending Assignments Dashboard: An intuitive interface for reviewing and grading pending assignments, including options to view submissions, provide marks, and give feedback.
+- npm start
+- Live Site
+- Check out the live site: Live Site URL
 
-+ Private Routes with Persistent Login: Ensures users remain logged in and can access private routes even after page reloads, enhancing the seamless user experience.
 
-+ Theme Customization: A theme toggling feature allows users to switch between light and dark modes, providing a personalized user interface.
-
-+ Real-Time PDF Preview: Submitted assignments can be previewed directly within the application using an iframe, allowing users to view PDF documents without downloading them.
-
-+ Environment Variables for Security: Sensitive data such as Firebase config keys and MongoDB credentials are securely managed using environment variables, protecting against unauthorized access.
