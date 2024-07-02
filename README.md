@@ -26,7 +26,7 @@ Installation Guide
 ___
 <h3>To clone the project and run it locally, follow these steps:</h2>
 
-+ Prerequisites: 
+Prerequisites: 
 
 - Node.js and 
 - npm installed
